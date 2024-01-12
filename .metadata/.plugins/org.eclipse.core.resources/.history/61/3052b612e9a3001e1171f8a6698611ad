@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	/*
+	 * String data
+	 * */
+	printf("-------------example1--------------\n");
+	char str1[15] = "New data";
+	char str2[] = "New data";
+	char *str3 = "New data";
+
+	printf("char is : %c\n",str3[5]);//=printf("char is : %c\n",*(str3+5));
+	printf("char is : %c\n",*(str3+5));
+	printf("---------------------------\n");
+	printf("-------------example2--------------\n");
+	/*void copy1(char * const s1,const char * const s2){
+		int i;
+		for(i=0;s1[i]=s2[i]!='\0';i++);
+
+	}
+	void copy2(char * s1,const * s2){
+		for(;(*s1=*s2)!='\0';s1++,s2++);
+
+	}*/
+	printf("-------------example3--------------\n");
+	char str4[4][4] = {{"hi"},{"you"}};
+	char *str5[4] = {"hello","How are you","fine","tnx"};
+	printf("-------------example4--------------\n");
+	int a=1,b=2,c=3,d=4;
+	int * k[4] = {&a,&b,&c,&d};
+
+	int i = 0;
+	for(;i<4;i++)printf("The contents of k are: %d\n",*k[i]);
+
+
+
+
+
+
+
+
+
+
+	printf("---------------------------\n");
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,197 @@
+14:25:15 **** Incremental Build of configuration Debug for project EC-T1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T1.o" "..\\src\\EC-T1.c" 
+..\src\EC-T1.c: In function 'main':
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:206:32: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  206 |         int * const pointer1 = &au;//address is const, But content is changable.
+      |                                ^
+..\src\EC-T1.c:227:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  227 |         q = &au;
+      |           ^
+..\src\EC-T1.c:257:13: warning: unused variable 'i4' [-Wunused-variable]
+  257 |         int i4;
+      |             ^~
+..\src\EC-T1.c:234:15: warning: unused variable 'pointerTest' [-Wunused-variable]
+  234 |         int * pointerTest = NULL;
+      |               ^~~~~~~~~~~
+..\src\EC-T1.c:211:15: warning: unused variable 'ptp' [-Wunused-variable]
+  211 |         int **ptp = &q;/*it(**) mention an address and inside that address
+      |               ^~~
+..\src\EC-T1.c:210:27: warning: unused variable 'pointer2' [-Wunused-variable]
+  210 |         const int * const pointer2;//address and content are const.
+      |                           ^~~~~~~~
+..\src\EC-T1.c:167:15: warning: unused variable 'vp' [-Wunused-variable]
+  167 |         void *vp;// inside void * we can restore every address.
+      |               ^~
+..\src\EC-T1.c:166:17: warning: unused variable 'dp' [-Wunused-variable]
+  166 |         double *dp;
+      |                 ^~
+..\src\EC-T1.c:165:15: warning: unused variable 'cp' [-Wunused-variable]
+  165 |         char *cp;
+      |               ^~
+..\src\EC-T1.c:156:13: warning: variable 'iarray' set but not used [-Wunused-but-set-variable]
+  156 |         int iarray[4][3] = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};//4 row, 3 column
+      |             ^~~~~~
+..\src\EC-T1.c:155:13: warning: unused variable 'iarry' [-Wunused-variable]
+  155 |         int iarry[] = {1,2,3,4,5,6,7,8,9};
+      |             ^~~~~
+..\src\EC-T1.c:154:14: warning: unused variable 'chartest' [-Wunused-variable]
+  154 |         char chartest[] = "Hello Hossein";
+      |              ^~~~~~~~
+..\src\EC-T1.c:152:14: warning: unused variable 'chararray' [-Wunused-variable]
+  152 |         char chararray[arraynumber/2] = {'A','B'};
+      |              ^~~~~~~~~
+..\src\EC-T1.c:150:13: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  150 |         int arr[arraynumber] = {1,2,3,4,5,6,7};//0 to 99
+      |             ^~~
+..\src\EC-T1.c:31:15: warning: unused variable 'b' [-Wunused-variable]
+   31 |         int i,b = 5;// max number is 65535
+      |               ^
+gcc -o EC-T1.exe "src\\EC-T1.o" 
+
+14:25:16 Build Finished. 0 errors, 39 warnings. (took 866ms)
+

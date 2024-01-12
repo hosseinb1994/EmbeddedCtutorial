@@ -1,0 +1,32 @@
+12:39:16 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:53:15: warning: unused variable 'str5' [-Wunused-variable]
+   53 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:52:14: warning: unused variable 'str4' [-Wunused-variable]
+   52 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:35:14: warning: unused variable 'str2' [-Wunused-variable]
+   35 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str1' [-Wunused-variable]
+   34 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:129:14: warning: unused variable 'c2' [-Wunused-variable]
+  129 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:142:14: warning: unused variable 'c2' [-Wunused-variable]
+  142 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:155:14: warning: unused variable 'c2' [-Wunused-variable]
+  155 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+
+12:39:17 Build Finished. 0 errors, 7 warnings. (took 549ms)
+

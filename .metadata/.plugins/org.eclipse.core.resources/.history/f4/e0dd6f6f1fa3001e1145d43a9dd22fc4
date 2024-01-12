@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	/*
+	 * String data
+	 * */
+	char str1[15] = "New data";
+	char str2[] = "New data";
+	char *str3 = "New data";
+
+	printf("char is : %c\n",str3[5]);
+
+
+
+
+
+
+
+
+
+
+
+	printf("---------------------------\n");
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

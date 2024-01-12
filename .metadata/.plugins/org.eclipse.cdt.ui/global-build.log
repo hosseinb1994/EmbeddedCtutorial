@@ -1,0 +1,1753 @@
+12:32:37 **** Rebuild of configuration Debug for project EC-T1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T1.o" "..\\src\\EC-T1.c" 
+..\src\EC-T1.c: In function 'main':
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:206:32: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  206 |         int * const pointer1 = &au;//address is const, But content is changable.
+      |                                ^
+..\src\EC-T1.c:227:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  227 |         q = &au;
+      |           ^
+..\src\EC-T1.c:257:13: warning: unused variable 'i4' [-Wunused-variable]
+  257 |         int i4;
+      |             ^~
+..\src\EC-T1.c:234:15: warning: unused variable 'pointerTest' [-Wunused-variable]
+  234 |         int * pointerTest = NULL;
+      |               ^~~~~~~~~~~
+..\src\EC-T1.c:211:15: warning: unused variable 'ptp' [-Wunused-variable]
+  211 |         int **ptp = &q;/*it(**) mention an address and inside that address
+      |               ^~~
+..\src\EC-T1.c:210:27: warning: unused variable 'pointer2' [-Wunused-variable]
+  210 |         const int * const pointer2;//address and content are const.
+      |                           ^~~~~~~~
+..\src\EC-T1.c:167:15: warning: unused variable 'vp' [-Wunused-variable]
+  167 |         void *vp;// inside void * we can restore every address.
+      |               ^~
+..\src\EC-T1.c:166:17: warning: unused variable 'dp' [-Wunused-variable]
+  166 |         double *dp;
+      |                 ^~
+..\src\EC-T1.c:165:15: warning: unused variable 'cp' [-Wunused-variable]
+  165 |         char *cp;
+      |               ^~
+..\src\EC-T1.c:156:13: warning: variable 'iarray' set but not used [-Wunused-but-set-variable]
+  156 |         int iarray[4][3] = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};//4 row, 3 column
+      |             ^~~~~~
+..\src\EC-T1.c:155:13: warning: unused variable 'iarry' [-Wunused-variable]
+  155 |         int iarry[] = {1,2,3,4,5,6,7,8,9};
+      |             ^~~~~
+..\src\EC-T1.c:154:14: warning: unused variable 'chartest' [-Wunused-variable]
+  154 |         char chartest[] = "Hello Hossein";
+      |              ^~~~~~~~
+..\src\EC-T1.c:152:14: warning: unused variable 'chararray' [-Wunused-variable]
+  152 |         char chararray[arraynumber/2] = {'A','B'};
+      |              ^~~~~~~~~
+..\src\EC-T1.c:150:13: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  150 |         int arr[arraynumber] = {1,2,3,4,5,6,7};//0 to 99
+      |             ^~~
+..\src\EC-T1.c:31:15: warning: unused variable 'b' [-Wunused-variable]
+   31 |         int i,b = 5;// max number is 65535
+      |               ^
+gcc -o EC-T1.exe "src\\EC-T1.o" 
+Info: Nothing to build for EC-T1
+12:40:43 **** Rebuild of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+Info: Nothing to build for EC-T2
+Info: Nothing to build for EC-T2
+12:41:44 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:14:37 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:10:21: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   10 |         char str3 = "New data";
+      |                     ^~~~~~~~~~
+..\src\EC-T2.c:12:38: error: subscripted value is neither array nor pointer nor vector
+   12 |         printf("char is : %c \n",str3[0]);
+      |                                      ^
+..\src\EC-T2.c:10:14: warning: variable 'str3' set but not used [-Wunused-but-set-variable]
+   10 |         char str3 = "New data";
+      |              ^~~~
+..\src\EC-T2.c:9:14: warning: unused variable 'str2' [-Wunused-variable]
+    9 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:8:14: warning: unused variable 'str1' [-Wunused-variable]
+    8 |         char str1[15] = "New data";
+      |              ^~~~
+13:15:21 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:9:14: warning: unused variable 'str2' [-Wunused-variable]
+    9 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:8:14: warning: unused variable 'str1' [-Wunused-variable]
+    8 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:15:52 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:9:14: warning: unused variable 'str2' [-Wunused-variable]
+    9 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:8:14: warning: unused variable 'str1' [-Wunused-variable]
+    8 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:16:30 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:9:14: warning: unused variable 'str2' [-Wunused-variable]
+    9 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:8:14: warning: unused variable 'str1' [-Wunused-variable]
+    8 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:16:54 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:9:14: warning: unused variable 'str2' [-Wunused-variable]
+    9 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:8:14: warning: unused variable 'str1' [-Wunused-variable]
+    8 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:06:57 **** Rebuild of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:30:25: warning: unused variable 'd' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |                         ^
+..\src\EC-T2.c:30:21: warning: unused variable 'c' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |                     ^
+..\src\EC-T2.c:30:17: warning: unused variable 'b' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |                 ^
+..\src\EC-T2.c:30:13: warning: unused variable 'a' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |             ^
+..\src\EC-T2.c:28:15: warning: unused variable 'str5' [-Wunused-variable]
+   28 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:27:14: warning: unused variable 'str4' [-Wunused-variable]
+   27 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:10:14: warning: unused variable 'str2' [-Wunused-variable]
+   10 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:9:14: warning: unused variable 'str1' [-Wunused-variable]
+    9 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+Info: Nothing to build for EC-T2
+13:07:53 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:30:25: warning: unused variable 'd' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |                         ^
+..\src\EC-T2.c:30:21: warning: unused variable 'c' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |                     ^
+..\src\EC-T2.c:30:17: warning: unused variable 'b' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |                 ^
+..\src\EC-T2.c:30:13: warning: unused variable 'a' [-Wunused-variable]
+   30 |         int a=1,b=2,c=3,d=4;
+      |             ^
+..\src\EC-T2.c:28:15: warning: unused variable 'str5' [-Wunused-variable]
+   28 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:27:14: warning: unused variable 'str4' [-Wunused-variable]
+   27 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:10:14: warning: unused variable 'str2' [-Wunused-variable]
+   10 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:9:14: warning: unused variable 'str1' [-Wunused-variable]
+    9 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:10:16 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:28:15: warning: unused variable 'str5' [-Wunused-variable]
+   28 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:27:14: warning: unused variable 'str4' [-Wunused-variable]
+   27 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:10:14: warning: unused variable 'str2' [-Wunused-variable]
+   10 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:9:14: warning: unused variable 'str1' [-Wunused-variable]
+    9 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:10:54 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:28:15: warning: unused variable 'str5' [-Wunused-variable]
+   28 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:27:14: warning: unused variable 'str4' [-Wunused-variable]
+   27 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:10:14: warning: unused variable 'str2' [-Wunused-variable]
+   10 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:9:14: warning: unused variable 'str1' [-Wunused-variable]
+    9 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:20:07 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:28:15: warning: unused variable 'str5' [-Wunused-variable]
+   28 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:27:14: warning: unused variable 'str4' [-Wunused-variable]
+   27 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:10:14: warning: unused variable 'str2' [-Wunused-variable]
+   10 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:9:14: warning: unused variable 'str1' [-Wunused-variable]
+    9 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:21:08 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:22:42 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:23:06 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:28:14 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:28:39 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:34:46 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:71:14: warning: unused variable 'c2' [-Wunused-variable]
+   71 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:35:36 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: At top level:
+..\src\EC-T2.c:58:8: error: expected declaration specifiers or '...' before string constant
+   58 | printf("--------------func1-------------\n");
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\EC-T2.c:68:8: error: expected declaration specifiers or '...' before string constant
+   68 | printf("--------------func2-------------\n");
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:71:14: warning: unused variable 'c2' [-Wunused-variable]
+   71 |         char c2=c1;
+      |              ^~
+13:36:47 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:73:14: warning: unused variable 'c2' [-Wunused-variable]
+   73 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:37:12 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:73:14: warning: unused variable 'c2' [-Wunused-variable]
+   73 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+13:37:55 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:32:15: warning: unused variable 'str5' [-Wunused-variable]
+   32 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str4' [-Wunused-variable]
+   31 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str2' [-Wunused-variable]
+   14 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:13:14: warning: unused variable 'str1' [-Wunused-variable]
+   13 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:73:14: warning: unused variable 'c2' [-Wunused-variable]
+   73 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+20:33:29 **** Rebuild of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:33:15: warning: unused variable 'str5' [-Wunused-variable]
+   33 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str4' [-Wunused-variable]
+   32 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:15:14: warning: unused variable 'str2' [-Wunused-variable]
+   15 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str1' [-Wunused-variable]
+   14 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:76:14: warning: unused variable 'c2' [-Wunused-variable]
+   76 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:89:14: warning: unused variable 'c2' [-Wunused-variable]
+   89 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+Info: Nothing to build for EC-T2
+00:29:29 **** Rebuild of configuration Debug for project EC-T1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T1.o" "..\\src\\EC-T1.c" 
+..\src\EC-T1.c: In function 'main':
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:206:32: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  206 |         int * const pointer1 = &au;//address is const, But content is changable.
+      |                                ^
+..\src\EC-T1.c:227:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  227 |         q = &au;
+      |           ^
+..\src\EC-T1.c:257:13: warning: unused variable 'i4' [-Wunused-variable]
+  257 |         int i4;
+      |             ^~
+..\src\EC-T1.c:234:15: warning: unused variable 'pointerTest' [-Wunused-variable]
+  234 |         int * pointerTest = NULL;
+      |               ^~~~~~~~~~~
+..\src\EC-T1.c:211:15: warning: unused variable 'ptp' [-Wunused-variable]
+  211 |         int **ptp = &q;/*it(**) mention an address and inside that address
+      |               ^~~
+..\src\EC-T1.c:210:27: warning: unused variable 'pointer2' [-Wunused-variable]
+  210 |         const int * const pointer2;//address and content are const.
+      |                           ^~~~~~~~
+..\src\EC-T1.c:167:15: warning: unused variable 'vp' [-Wunused-variable]
+  167 |         void *vp;// inside void * we can restore every address.
+      |               ^~
+..\src\EC-T1.c:166:17: warning: unused variable 'dp' [-Wunused-variable]
+  166 |         double *dp;
+      |                 ^~
+..\src\EC-T1.c:165:15: warning: unused variable 'cp' [-Wunused-variable]
+  165 |         char *cp;
+      |               ^~
+..\src\EC-T1.c:156:13: warning: variable 'iarray' set but not used [-Wunused-but-set-variable]
+  156 |         int iarray[4][3] = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};//4 row, 3 column
+      |             ^~~~~~
+..\src\EC-T1.c:155:13: warning: unused variable 'iarry' [-Wunused-variable]
+  155 |         int iarry[] = {1,2,3,4,5,6,7,8,9};
+      |             ^~~~~
+..\src\EC-T1.c:154:14: warning: unused variable 'chartest' [-Wunused-variable]
+  154 |         char chartest[] = "Hello Hossein";
+      |              ^~~~~~~~
+..\src\EC-T1.c:152:14: warning: unused variable 'chararray' [-Wunused-variable]
+  152 |         char chararray[arraynumber/2] = {'A','B'};
+      |              ^~~~~~~~~
+..\src\EC-T1.c:150:13: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  150 |         int arr[arraynumber] = {1,2,3,4,5,6,7};//0 to 99
+      |             ^~~
+..\src\EC-T1.c:31:15: warning: unused variable 'b' [-Wunused-variable]
+   31 |         int i,b = 5;// max number is 65535
+      |               ^
+gcc -o EC-T1.exe "src\\EC-T1.o" 
+14:25:15 **** Incremental Build of configuration Debug for project EC-T1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T1.o" "..\\src\\EC-T1.c" 
+..\src\EC-T1.c: In function 'main':
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:49:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |         printf("size short int is: %d bytes\n",sizeof(si));
+      |                                    ~^          ~~~~~~~~~~
+      |                                     |          |
+      |                                     int        long long unsigned int
+      |                                    %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:50:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   50 |         printf("size  int is: %d bytes\n",sizeof(i));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:51:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   51 |         printf("size long int is: %d bytes\n",sizeof(li));
+      |                                   ~^          ~~~~~~~~~~
+      |                                    |          |
+      |                                    int        long long unsigned int
+      |                                   %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:52:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   52 |         printf("size signed short int is: %d bytes\n",sizeof(ssi));
+      |                                           ~^          ~~~~~~~~~~~
+      |                                            |          |
+      |                                            int        long long unsigned int
+      |                                           %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:53:46: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   53 |         printf("size unsinged short int is: %d bytes\n",sizeof(usi));
+      |                                             ~^          ~~~~~~~~~~~
+      |                                              |          |
+      |                                              int        long long unsigned int
+      |                                             %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:54:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   54 |         printf("size long long int is: %d bytes\n",sizeof(lli));
+      |                                        ~^          ~~~~~~~~~~~
+      |                                         |          |
+      |                                         int        long long unsigned int
+      |                                        %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:55:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   55 |         printf("size long is: %d bytes\n",sizeof(l));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:56:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   56 |         printf("size signed long int is: %d bytes\n",sizeof(sli));
+      |                                          ~^          ~~~~~~~~~~~
+      |                                           |          |
+      |                                           int        long long unsigned int
+      |                                          %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:57:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   57 |         printf("size unsigned long int is: %d bytes\n",sizeof(uli));
+      |                                            ~^          ~~~~~~~~~~~
+      |                                             |          |
+      |                                             int        long long unsigned int
+      |                                            %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:58:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   58 |         printf("size float is: %d bytes\n",sizeof(f));
+      |                                ~^          ~~~~~~~~~
+      |                                 |          |
+      |                                 int        long long unsigned int
+      |                                %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:59:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   59 |         printf("size double is: %d bytes\n",sizeof(d));
+      |                                 ~^          ~~~~~~~~~
+      |                                  |          |
+      |                                  int        long long unsigned int
+      |                                 %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:60:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   60 |         printf("size char is: %d bytes\n",sizeof(c));
+      |                               ~^          ~~~~~~~~~
+      |                                |          |
+      |                                int        long long unsigned int
+      |                               %lld
+..\src\EC-T1.c:206:32: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  206 |         int * const pointer1 = &au;//address is const, But content is changable.
+      |                                ^
+..\src\EC-T1.c:227:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  227 |         q = &au;
+      |           ^
+..\src\EC-T1.c:257:13: warning: unused variable 'i4' [-Wunused-variable]
+  257 |         int i4;
+      |             ^~
+..\src\EC-T1.c:234:15: warning: unused variable 'pointerTest' [-Wunused-variable]
+  234 |         int * pointerTest = NULL;
+      |               ^~~~~~~~~~~
+..\src\EC-T1.c:211:15: warning: unused variable 'ptp' [-Wunused-variable]
+  211 |         int **ptp = &q;/*it(**) mention an address and inside that address
+      |               ^~~
+..\src\EC-T1.c:210:27: warning: unused variable 'pointer2' [-Wunused-variable]
+  210 |         const int * const pointer2;//address and content are const.
+      |                           ^~~~~~~~
+..\src\EC-T1.c:167:15: warning: unused variable 'vp' [-Wunused-variable]
+  167 |         void *vp;// inside void * we can restore every address.
+      |               ^~
+..\src\EC-T1.c:166:17: warning: unused variable 'dp' [-Wunused-variable]
+  166 |         double *dp;
+      |                 ^~
+..\src\EC-T1.c:165:15: warning: unused variable 'cp' [-Wunused-variable]
+  165 |         char *cp;
+      |               ^~
+..\src\EC-T1.c:156:13: warning: variable 'iarray' set but not used [-Wunused-but-set-variable]
+  156 |         int iarray[4][3] = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};//4 row, 3 column
+      |             ^~~~~~
+..\src\EC-T1.c:155:13: warning: unused variable 'iarry' [-Wunused-variable]
+  155 |         int iarry[] = {1,2,3,4,5,6,7,8,9};
+      |             ^~~~~
+..\src\EC-T1.c:154:14: warning: unused variable 'chartest' [-Wunused-variable]
+  154 |         char chartest[] = "Hello Hossein";
+      |              ^~~~~~~~
+..\src\EC-T1.c:152:14: warning: unused variable 'chararray' [-Wunused-variable]
+  152 |         char chararray[arraynumber/2] = {'A','B'};
+      |              ^~~~~~~~~
+..\src\EC-T1.c:150:13: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  150 |         int arr[arraynumber] = {1,2,3,4,5,6,7};//0 to 99
+      |             ^~~
+..\src\EC-T1.c:31:15: warning: unused variable 'b' [-Wunused-variable]
+   31 |         int i,b = 5;// max number is 65535
+      |               ^
+gcc -o EC-T1.exe "src\\EC-T1.o" 
+09:36:47 **** Rebuild of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:33:15: warning: unused variable 'str5' [-Wunused-variable]
+   33 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str4' [-Wunused-variable]
+   32 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:15:14: warning: unused variable 'str2' [-Wunused-variable]
+   15 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str1' [-Wunused-variable]
+   14 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:76:14: warning: unused variable 'c2' [-Wunused-variable]
+   76 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:89:14: warning: unused variable 'c2' [-Wunused-variable]
+   89 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+09:40:27 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:33:15: warning: unused variable 'str5' [-Wunused-variable]
+   33 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str4' [-Wunused-variable]
+   32 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:15:14: warning: unused variable 'str2' [-Wunused-variable]
+   15 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str1' [-Wunused-variable]
+   14 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:76:14: warning: unused variable 'c2' [-Wunused-variable]
+   76 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:89:14: warning: unused variable 'c2' [-Wunused-variable]
+   89 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+09:45:30 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:33:15: warning: unused variable 'str5' [-Wunused-variable]
+   33 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str4' [-Wunused-variable]
+   32 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:15:14: warning: unused variable 'str2' [-Wunused-variable]
+   15 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str1' [-Wunused-variable]
+   14 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:76:14: warning: unused variable 'c2' [-Wunused-variable]
+   76 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:89:14: warning: unused variable 'c2' [-Wunused-variable]
+   89 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:100:9: warning: value computed is not used [-Wunused-value]
+  100 |         *x1++;
+      |         ^~~~~
+..\src\EC-T2.c:102:14: warning: unused variable 'c2' [-Wunused-variable]
+  102 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+09:46:00 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:33:15: warning: unused variable 'str5' [-Wunused-variable]
+   33 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str4' [-Wunused-variable]
+   32 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:15:14: warning: unused variable 'str2' [-Wunused-variable]
+   15 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str1' [-Wunused-variable]
+   14 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:76:14: warning: unused variable 'c2' [-Wunused-variable]
+   76 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:89:14: warning: unused variable 'c2' [-Wunused-variable]
+   89 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:100:9: warning: value computed is not used [-Wunused-value]
+  100 |         *x1++;
+      |         ^~~~~
+..\src\EC-T2.c:102:14: warning: unused variable 'c2' [-Wunused-variable]
+  102 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+09:46:30 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:33:15: warning: unused variable 'str5' [-Wunused-variable]
+   33 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str4' [-Wunused-variable]
+   32 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:15:14: warning: unused variable 'str2' [-Wunused-variable]
+   15 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str1' [-Wunused-variable]
+   14 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:76:14: warning: unused variable 'c2' [-Wunused-variable]
+   76 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:89:14: warning: unused variable 'c2' [-Wunused-variable]
+   89 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:100:9: warning: value computed is not used [-Wunused-value]
+  100 |         *x1++;
+      |         ^~~~~
+..\src\EC-T2.c:102:14: warning: unused variable 'c2' [-Wunused-variable]
+  102 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+09:47:32 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:33:15: warning: unused variable 'str5' [-Wunused-variable]
+   33 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str4' [-Wunused-variable]
+   32 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:15:14: warning: unused variable 'str2' [-Wunused-variable]
+   15 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:14:14: warning: unused variable 'str1' [-Wunused-variable]
+   14 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:76:14: warning: unused variable 'c2' [-Wunused-variable]
+   76 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:89:14: warning: unused variable 'c2' [-Wunused-variable]
+   89 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:102:14: warning: unused variable 'c2' [-Wunused-variable]
+  102 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+11:29:22 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:74:21: warning: unused variable 'scope' [-Wunused-variable]
+   74 |                 int scope = 5;
+      |                     ^~~~~
+..\src\EC-T2.c:72:13: warning: unused variable 'scope' [-Wunused-variable]
+   72 |         int scope = 5;
+      |             ^~~~~
+..\src\EC-T2.c:44:15: warning: unused variable 'str5' [-Wunused-variable]
+   44 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:43:14: warning: unused variable 'str4' [-Wunused-variable]
+   43 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:26:14: warning: unused variable 'str2' [-Wunused-variable]
+   26 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:25:14: warning: unused variable 'str1' [-Wunused-variable]
+   25 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:93:14: warning: unused variable 'c2' [-Wunused-variable]
+   93 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:106:14: warning: unused variable 'c2' [-Wunused-variable]
+  106 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:119:14: warning: unused variable 'c2' [-Wunused-variable]
+  119 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+11:32:38 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:46:15: warning: unused variable 'str5' [-Wunused-variable]
+   46 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:45:14: warning: unused variable 'str4' [-Wunused-variable]
+   45 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:28:14: warning: unused variable 'str2' [-Wunused-variable]
+   28 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:27:14: warning: unused variable 'str1' [-Wunused-variable]
+   27 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:100:14: warning: unused variable 'c2' [-Wunused-variable]
+  100 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:113:14: warning: unused variable 'c2' [-Wunused-variable]
+  113 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:126:14: warning: unused variable 'c2' [-Wunused-variable]
+  126 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+11:44:47 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:48:15: warning: unused variable 'str5' [-Wunused-variable]
+   48 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:47:14: warning: unused variable 'str4' [-Wunused-variable]
+   47 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:30:14: warning: unused variable 'str2' [-Wunused-variable]
+   30 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:29:14: warning: unused variable 'str1' [-Wunused-variable]
+   29 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:102:14: warning: unused variable 'c2' [-Wunused-variable]
+  102 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:115:14: warning: unused variable 'c2' [-Wunused-variable]
+  115 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:128:14: warning: unused variable 'c2' [-Wunused-variable]
+  128 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\EC-T2.o:EC-T2.c:(.rdata$.refptr.otherfile[.refptr.otherfile]+0x0): undefined reference to `otherfile'
+collect2.exe: error: ld returned 1 exit status
+11:45:34 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:48:15: warning: unused variable 'str5' [-Wunused-variable]
+   48 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:47:14: warning: unused variable 'str4' [-Wunused-variable]
+   47 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:30:14: warning: unused variable 'str2' [-Wunused-variable]
+   30 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:29:14: warning: unused variable 'str1' [-Wunused-variable]
+   29 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:102:14: warning: unused variable 'c2' [-Wunused-variable]
+  102 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:115:14: warning: unused variable 'c2' [-Wunused-variable]
+  115 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:128:14: warning: unused variable 'c2' [-Wunused-variable]
+  128 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\EC-T2.o:EC-T2.c:(.rdata$.refptr.othefile[.refptr.othefile]+0x0): undefined reference to `othefile'
+collect2.exe: error: ld returned 1 exit status
+11:46:52 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\EC-T2.o:EC-T2.c:(.rdata$.refptr.othefile[.refptr.othefile]+0x0): undefined reference to `othefile'
+collect2.exe: error: ld returned 1 exit status
+11:47:57 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -o EC-T2.exe "src\\EC-T2.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\EC-T2.o:EC-T2.c:(.rdata$.refptr.othefile[.refptr.othefile]+0x0): undefined reference to `othefile'
+collect2.exe: error: ld returned 1 exit status
+11:55:56 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new.o" "..\\src\\new.c" 
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+22:31:41 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:49:15: warning: unused variable 'str5' [-Wunused-variable]
+   49 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:48:14: warning: unused variable 'str4' [-Wunused-variable]
+   48 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:31:14: warning: unused variable 'str2' [-Wunused-variable]
+   31 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:30:14: warning: unused variable 'str1' [-Wunused-variable]
+   30 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:103:14: warning: unused variable 'c2' [-Wunused-variable]
+  103 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:116:14: warning: unused variable 'c2' [-Wunused-variable]
+  116 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:129:14: warning: unused variable 'c2' [-Wunused-variable]
+  129 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+23:27:47 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new.o" "..\\src\\new.c" 
+..\src\new.c:2:12: warning: 'othefile1' defined but not used [-Wunused-variable]
+    2 | static int othefile1=45;
+      |            ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:51:15: warning: unused variable 'str5' [-Wunused-variable]
+   51 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:50:14: warning: unused variable 'str4' [-Wunused-variable]
+   50 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str2' [-Wunused-variable]
+   33 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str1' [-Wunused-variable]
+   32 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:105:14: warning: unused variable 'c2' [-Wunused-variable]
+  105 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:118:14: warning: unused variable 'c2' [-Wunused-variable]
+  118 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:131:14: warning: unused variable 'c2' [-Wunused-variable]
+  131 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\EC-T2.o:EC-T2.c:(.rdata$.refptr.othefile1[.refptr.othefile1]+0x0): undefined reference to `othefile1'
+collect2.exe: error: ld returned 1 exit status
+23:29:28 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:51:15: warning: unused variable 'str5' [-Wunused-variable]
+   51 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:50:14: warning: unused variable 'str4' [-Wunused-variable]
+   50 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str2' [-Wunused-variable]
+   33 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:32:14: warning: unused variable 'str1' [-Wunused-variable]
+   32 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:105:14: warning: unused variable 'c2' [-Wunused-variable]
+  105 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:118:14: warning: unused variable 'c2' [-Wunused-variable]
+  118 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:131:14: warning: unused variable 'c2' [-Wunused-variable]
+  131 |         char c2=c1;
+      |              ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new.o" "..\\src\\new.c" 
+..\src\new.c:3:12: warning: 'othefile1' defined but not used [-Wunused-variable]
+    3 | static int othefile1=45;
+      |            ^~~~~~~~~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:24:51 **** Rebuild of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:109:14: warning: unused variable 'c2' [-Wunused-variable]
+  109 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:122:14: warning: unused variable 'c2' [-Wunused-variable]
+  122 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:135:14: warning: unused variable 'c2' [-Wunused-variable]
+  135 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: At top level:
+..\src\EC-T2.c:152:1: error: expected identifier or '(' before '}' token
+  152 | }
+      | ^
+12:25:11 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:109:14: warning: unused variable 'c2' [-Wunused-variable]
+  109 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:122:14: warning: unused variable 'c2' [-Wunused-variable]
+  122 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:135:14: warning: unused variable 'c2' [-Wunused-variable]
+  135 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:27:22 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:112:14: warning: unused variable 'c2' [-Wunused-variable]
+  112 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:125:14: warning: unused variable 'c2' [-Wunused-variable]
+  125 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:138:14: warning: unused variable 'c2' [-Wunused-variable]
+  138 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:29:01 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:113:14: warning: unused variable 'c2' [-Wunused-variable]
+  113 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:126:14: warning: unused variable 'c2' [-Wunused-variable]
+  126 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:139:14: warning: unused variable 'c2' [-Wunused-variable]
+  139 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:29:25 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:113:14: warning: unused variable 'c2' [-Wunused-variable]
+  113 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:126:14: warning: unused variable 'c2' [-Wunused-variable]
+  126 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:139:14: warning: unused variable 'c2' [-Wunused-variable]
+  139 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:30:42 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:117:14: warning: unused variable 'c2' [-Wunused-variable]
+  117 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:130:14: warning: unused variable 'c2' [-Wunused-variable]
+  130 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:143:14: warning: unused variable 'c2' [-Wunused-variable]
+  143 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:31:44 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:118:14: warning: unused variable 'c2' [-Wunused-variable]
+  118 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:131:14: warning: unused variable 'c2' [-Wunused-variable]
+  131 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:144:14: warning: unused variable 'c2' [-Wunused-variable]
+  144 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:32:16 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:92:15: error: assignment of read-only variable 'pr4max'
+   92 |         pr4max=10;
+      |               ^
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:118:14: warning: unused variable 'c2' [-Wunused-variable]
+  118 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:131:14: warning: unused variable 'c2' [-Wunused-variable]
+  131 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:144:14: warning: unused variable 'c2' [-Wunused-variable]
+  144 |         char c2=c1;
+      |              ^~
+12:32:34 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:52:15: warning: unused variable 'str5' [-Wunused-variable]
+   52 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:51:14: warning: unused variable 'str4' [-Wunused-variable]
+   51 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str2' [-Wunused-variable]
+   34 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:33:14: warning: unused variable 'str1' [-Wunused-variable]
+   33 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:117:14: warning: unused variable 'c2' [-Wunused-variable]
+  117 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:130:14: warning: unused variable 'c2' [-Wunused-variable]
+  130 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:143:14: warning: unused variable 'c2' [-Wunused-variable]
+  143 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:37:41 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:53:15: warning: unused variable 'str5' [-Wunused-variable]
+   53 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:52:14: warning: unused variable 'str4' [-Wunused-variable]
+   52 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:35:14: warning: unused variable 'str2' [-Wunused-variable]
+   35 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str1' [-Wunused-variable]
+   34 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:126:14: warning: unused variable 'c2' [-Wunused-variable]
+  126 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:139:14: warning: unused variable 'c2' [-Wunused-variable]
+  139 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:152:14: warning: unused variable 'c2' [-Wunused-variable]
+  152 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:38:17 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:53:15: warning: unused variable 'str5' [-Wunused-variable]
+   53 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:52:14: warning: unused variable 'str4' [-Wunused-variable]
+   52 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:35:14: warning: unused variable 'str2' [-Wunused-variable]
+   35 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str1' [-Wunused-variable]
+   34 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:126:14: warning: unused variable 'c2' [-Wunused-variable]
+  126 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:139:14: warning: unused variable 'c2' [-Wunused-variable]
+  139 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:152:14: warning: unused variable 'c2' [-Wunused-variable]
+  152 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 
+12:39:16 **** Incremental Build of configuration Debug for project EC-T2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EC-T2.o" "..\\src\\EC-T2.c" 
+..\src\EC-T2.c: In function 'main':
+..\src\EC-T2.c:53:15: warning: unused variable 'str5' [-Wunused-variable]
+   53 |         char *str5[4] = {"hello","How are you","fine","tnx"};
+      |               ^~~~
+..\src\EC-T2.c:52:14: warning: unused variable 'str4' [-Wunused-variable]
+   52 |         char str4[4][4] = {{"hi"},{"you"}};
+      |              ^~~~
+..\src\EC-T2.c:35:14: warning: unused variable 'str2' [-Wunused-variable]
+   35 |         char str2[] = "New data";
+      |              ^~~~
+..\src\EC-T2.c:34:14: warning: unused variable 'str1' [-Wunused-variable]
+   34 |         char str1[15] = "New data";
+      |              ^~~~
+..\src\EC-T2.c: In function 'print1':
+..\src\EC-T2.c:129:14: warning: unused variable 'c2' [-Wunused-variable]
+  129 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print2':
+..\src\EC-T2.c:142:14: warning: unused variable 'c2' [-Wunused-variable]
+  142 |         char c2=c1;
+      |              ^~
+..\src\EC-T2.c: In function 'print3':
+..\src\EC-T2.c:155:14: warning: unused variable 'c2' [-Wunused-variable]
+  155 |         char c2=c1;
+      |              ^~
+gcc -o EC-T2.exe "src\\EC-T2.o" "src\\new.o" 

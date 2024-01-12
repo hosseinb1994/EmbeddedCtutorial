@@ -1,0 +1,2 @@
+int othefile=45;
+static int othefile1=45;
